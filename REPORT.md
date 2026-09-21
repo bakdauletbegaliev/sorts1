@@ -56,26 +56,16 @@ Below are the empirical metric plots generated from `results.csv`.
 ### Plot 1: Execution Time vs Input Size ($n$)
 
 ```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ PLACEHOLDER: Plot 1 ]                           |
-|                     Time (ns) vs Input Size (n)                       |
-|         (Include lines for MergeSort, QuickSort, QuickSelect)         |
-|                                                                       |
-+-----------------------------------------------------------------------+
+<img width="1600" height="1067" alt="1" src="https://github.com/user-attachments/assets/dbc84de1-7c93-48a5-9821-c793f7500dc7" />
+
 
 ```
 
 ### Plot 2: Max Recursion Depth vs Input Size ($n$)
 
 ```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ PLACEHOLDER: Plot 2 ]                           |
-|                  Max Depth vs Input Size (n)                          |
-|    (MergeSort should show strict log2(n), QuickSort ~ O(log n))       |
-|                                                                       |
-+-----------------------------------------------------------------------+
+<img width="1600" height="1200" alt="runningtimevsinputsize" src="https://github.com/user-attachments/assets/556477fb-7876-4c6b-9d7e-5893aa4c295b" />
+
 
 ```
 
@@ -86,13 +76,8 @@ Below are the empirical metric plots generated from `results.csv`.
 * **Select Ratio:** $\frac{\text{Comparisons}}{n}$
 
 ```
-+-----------------------------------------------------------------------+
-|                                                                       |
-|                     [ PLACEHOLDER: Plot 3 ]                           |
-|                  Comparison Ratios vs Input Size                      |
-|            (Shows convergence towards theoretical bounds)             |
-|                                                                       |
-+-----------------------------------------------------------------------+
+<img width="1600" height="1067" alt="recursiondepth" src="https://github.com/user-attachments/assets/96c033bf-7072-4b9b-8049-c008e51d348a" />
+
 
 ```
 
