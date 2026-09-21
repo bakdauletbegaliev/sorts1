@@ -1,4 +1,4 @@
- Assignment 1: Sorting & Selection Algorithms Analysis
+![img.png](img.png)# Assignment 1: Sorting & Selection Algorithms Analysis
 
 **Course:** Data Structures & Algorithms
 
@@ -10,7 +10,8 @@
 
 The following table summarizes the theoretical bounds for **MergeSort**, **QuickSort**, **QuickSelect**, and **Insertion Sort** across best, average, and worst-case scenarios.
 
-![img.png](img.png)#
+![img.png](img.png)
+
 ## 2. Recurrence Relations & Master Theorem Analysis
 
 To analyze the performance mathematically, we use the Master Theorem form:
@@ -56,16 +57,14 @@ Below are the empirical metric plots generated from `results.csv`.
 ### Plot 1: Execution Time vs Input Size ($n$)
 
 ```
-<img width="1600" height="1067" alt="1" src="https://github.com/user-attachments/assets/dbc84de1-7c93-48a5-9821-c793f7500dc7" />
-
+![1.png](images/1.png)
 
 ```
 
 ### Plot 2: Max Recursion Depth vs Input Size ($n$)
 
 ```
-<img width="1600" height="1200" alt="runningtimevsinputsize" src="https://github.com/user-attachments/assets/556477fb-7876-4c6b-9d7e-5893aa4c295b" />
-
+![Max Recursion Depth vs Size](images/recursiondepth.png)
 
 ```
 
@@ -76,8 +75,7 @@ Below are the empirical metric plots generated from `results.csv`.
 * **Select Ratio:** $\frac{\text{Comparisons}}{n}$
 
 ```
-<img width="1600" height="1067" alt="recursiondepth" src="https://github.com/user-attachments/assets/96c033bf-7072-4b9b-8049-c008e51d348a" />
-
+![Ratio vs Size](images/runningtimevsinputsize.png)
 
 ```
 
