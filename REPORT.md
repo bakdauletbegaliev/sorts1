@@ -1,4 +1,4 @@
-![img.png](img.png)# Assignment 1: Sorting & Selection Algorithms Analysis
+ Assignment 1: Sorting & Selection Algorithms Analysis
 
 **Course:** Data Structures & Algorithms
 
@@ -10,12 +10,7 @@
 
 The following table summarizes the theoretical bounds for **MergeSort**, **QuickSort**, **QuickSelect**, and **Insertion Sort** across best, average, and worst-case scenarios.
 
-| **Algorithm** | **Best Case** | **Average Case** | **Worst Case** |
-| **MergeSort** | $\Theta(n \log n)$ — Array split recursively regardless of input order. | $\Theta(n \log n)$ — Uniform splitting across all recursion tree levels. | $\Theta(n \log n)$ — Guarantees $O(n \log n)$ comparisons even on worst inputs. |
-| **QuickSort** | $\Theta(n \log n)$ — Pivot divides array into two equal halves at every step. | $\Theta(n \log n)$ — Random pivot guarantees balanced partitioning on average. | $O(n^2)$ — Occurs when pivot selection yields $1$ and $n-1$ splits repeatedly. |
-| **QuickSelect** | $\Theta(n)$ — Pivot splits elements evenly; target found in first call. | $\Theta(n)$ — Average recursive size decays as a geometric series ($n + n/2 + \dots$). | $O(n^2)$ — Highly unbalanced pivots force searching through $n, n-1, \dots$ elements. |
-| **Insertion Sort** | $\Theta(n)$ — Already sorted array requires only $n-1$ comparisons. | $\Theta(n^2)$ — Elements require shifting over half the array on average. | $\Theta(n^2)$ — Reverse-sorted array forces maximum element shifts for each item. |
-
+![img.png](img.png)#
 ## 2. Recurrence Relations & Master Theorem Analysis
 
 To analyze the performance mathematically, we use the Master Theorem form:
